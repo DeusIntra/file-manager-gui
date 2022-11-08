@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', 'Helvetica Neue Light', 'Open Sans', Helvetica;
+    min-width: 700px;
+}
+
+.ka-tbody {
+    max-height: 400px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 100%;
+}
+
+.selection-demo {
+    input {
+        vertical-align: middle;
+    }
+}
+
+.btn-primary {
+    padding: 0.5rem 1rem;
+    background-color: #F1F5F7;
+    align-self: flex-end;
+}
+
+
+.tab-list {
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+}
+
+.tab-list-item {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: -1px;
+    padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+    background-color: white;
+    border: solid #ccc;
+    border-width: 1px 1px 0 1px;
+}
+
+
+.import-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+}
