@@ -4,6 +4,14 @@ body {
   min-width: 700px;
 }
 
+a {
+  text-decoration: none;
+  color: #101011;
+}
+a:link a:visited a:hover a:active {
+  color: #101011;
+}
+
 .ka-tbody {
   max-height: 400px;
 }
@@ -18,6 +26,9 @@ body {
   height: 100%;
 }
 
+.selection-demo {
+  width: 100%;
+}
 .selection-demo input {
   vertical-align: middle;
 }
@@ -51,4 +62,26 @@ body {
   justify-content: center;
   align-items: center;
   height: 80vh;
+}
+
+.ka-table {
+  table-layout: auto !important;
+}
+
+.full-screen-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(219, 219, 219, 0.7882352941);
+}
+
+.result {
+  background-color: white;
+  max-width: 600px;
+  padding: 48px;
 }/*# sourceMappingURL=App.css.map */
